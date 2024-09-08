@@ -15,7 +15,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
 
 ## Synthesis Results on Seen Singers
 <br>
-<table=>
+<table>
     <thead>
         <tr>
             <th colspan="4">Synthesis on Seen Singers with Short Music Scores</th>
@@ -23,7 +23,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
     </thead>
     <tbody>
        <tr>
-            <td style="width: 200px;"><center>Singer Identity</center></td>
+            <td style="width: 25%;"><center>Singer Identity</center></td>
             <td><center>GT mel + Vocoder</center></td>
             <td><center>Reference</center></td>
             <td><center>SPSinger</center></td>
