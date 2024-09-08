@@ -14,7 +14,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
     <figcaption>Fig.1 Overall Architecture of SPSinger.</figcaption>
 </div>
 
-## Singing Technique Annotations
+## Synthesis Results
 <div style="text-align: justify">
     In this section, we provide samples of singing techniques that we annotated on opencpop dataset. In sentence-level samples, bolded words are sung in the specific technique.
 </div>
