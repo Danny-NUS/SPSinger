@@ -1,4 +1,4 @@
-## Abstract of the paper
+## SPSinger: Multi-Singer Singing Voice Synthesis with Short Reference Prompt
 
 <div style="text-align: justify">
 Current singing voice synthesis systems often struggle in multi-singer scenarios due to limited training data that only includes a few singers. Existing zero-shot multi-singer singing voice synthesis systems are criticized for their reliance on global timbre embeddings from single reference audio, which fail to capture sufficient timbre details. This paper introduces SPSinger, a multi-singer singing voice synthesizer that generates singer-specific voices from brief reference audio (around \textit{5 seconds}) without prior training on the singer's voice. 
@@ -6,6 +6,7 @@ SPSinger builds on the StableDiffusion framework by adding a global encoder to c
 To overcome the challenge of requiring long audio prompts during inference, we introduce the Latent Prompt Adaptation Model (LPAM), a Transformer-based module that derives timbre features from global embeddings. This approach eliminates the need for long reference prompts. Additionally, we propose a novel pitch shift algorithm that uses LPAM to predict the pitch shift values.
 Our experiments show that SPSinger achieves high-quality singing voice synthesis that preserves the identity of the target singer, even when using only short reference audio inputs in zero-shot scenarios.
 </div>
+<br>
 <div style="text-align: center;">
     <img src="SPSinger_overall.png" width="1000px">
     <figcaption>Fig.1 Overall Architecture of SPSinger.</figcaption>
