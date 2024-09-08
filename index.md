@@ -11,7 +11,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
 
 <div style="text-align: center;">
     <img src="SPSinger_overall.png" width="1000px">
-    <figcaption style="text-align: justify; text-align-last: left; margin: 10px 20px;">\( E = mc^2 \)</figcaption>
+    <figcaption style="text-align: justify; text-align-last: left; margin: 10px 20px;">Fig.1 Overall Architecture of SPSinger.</figcaption>
 </div>
 
 ## Singing Technique Annotations
