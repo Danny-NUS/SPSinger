@@ -7,7 +7,8 @@ SPSinger builds on the StableDiffusion framework by adding a global encoder to c
 To overcome the challenge of requiring long audio prompts during inference, we introduce the Latent Prompt Adaptation Model (LPAM), a Transformer-based module that derives timbre features from global embeddings. This approach eliminates the need for long reference prompts. Additionally, we propose a novel pitch shift algorithm that uses LPAM to predict the pitch shift values.
 Our experiments show that SPSinger achieves high-quality singing voice synthesis that preserves the identity of the target singer, even when using only short reference audio inputs in zero-shot scenarios.
 </div>
-<br>
+
+## Model Architecture
 <div style="text-align: center;">
     <img src="SPSinger_overall.png" width="1000px">
     <figcaption>Fig.1 Overall Architecture of SPSinger.</figcaption>
