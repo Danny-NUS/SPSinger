@@ -11,7 +11,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
 
 <div style="text-align: center;">
     <img src="SPSinger_overall.png" width="1000px">
-    <figcaption>Overall Architecture of SPSinger. $\mathbf{e}_m$, $\mathbf{e}_g$, and $\mathbf{e}_l$ correspondingly represent the music score hidden sequence, global feature hidden sequence, and local feature hidden sequence. $\hat{\mathbf{e}_l}$ represents the predicted local feature hidden. Concatenation and repeating operations are denoted by \textcircled{\tiny{C}} and \textcircled{\tiny{R}}, respectively. In this diagram, training is indicated by dashed lines, pitch shift is only performed during inference.</figcaption>
+    <figcaption style="text-align: justify; text-align-last: left; margin: 10px 20px;">\( E = mc^2 \)</figcaption>
 </div>
 
 ## Singing Technique Annotations
