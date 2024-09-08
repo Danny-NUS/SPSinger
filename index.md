@@ -296,3 +296,284 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
     </tbody>
 </table>
 
+## Synthesis Results on Unseen Singers
+<table>
+    <thead>
+        <tr>
+            <th colspan="4">Synthesis on Unseen Singers with Short Music Scores</th>
+        </tr>
+    </thead>
+    <tbody>
+       <tr>
+            <td nowrap><center>Singer Identity</center></td>
+            <td><center>GT mel + Vocoder</center></td>
+            <td><center>Reference</center></td>
+            <td><center>SPSinger</center></td>
+        </tr>
+        <tr>
+            <td>Female 0</td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/female_0_short_unseen/ground_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/female_0_short_unseen/reference.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/female_0_short_unseen/spsinger.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>Female 1</td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/female_1_short_unseen/ground_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/female_1_short_unseen/reference.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/female_1_short_unseen/spsinger.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>Female 2</td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/female_2_short_unseen/ground_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/female_2_short_unseen/reference.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/female_2_short_unseen/spsinger.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>Male 0</td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/male_0_short_unseen/ground_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/male_0_short_unseen/reference.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/male_0_short_unseen/spsinger.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>Male 1</td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/male_1_short_unseen/ground_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/male_1_short_unseen/reference.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/male_1_short_unseen/spsinger.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>Male 2</td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/male_2_short_unseen/ground_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/male_2_short_unseen/reference.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/male_2_short_unseen/spsinger.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+        </tr>
+    </tbody>
+    <thead>
+        <tr>
+            <th colspan="4">Synthesis on Unseen Singers with Long Music Scores</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><center>Singers</center></td>
+            <td><center>GT mel + Vocoder</center></td>
+            <td><center>Reference</center></td>
+            <td><center>SPSinger</center></td>
+        </tr>
+        <tr>
+            <td>Female 0</td>
+            <td>
+                <audio controls>
+                  <source src="long_unseen/female_0_long_unseen/ground_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="long_unseen/female_0_long_unseen/reference.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="long_unseen/female_0_long_unseen/spsinger.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>Female 1</td>
+            <td>
+                <audio controls>
+                  <source src="long_unseen/female_1_long_unseen/ground_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="long_unseen/female_1_long_unseen/reference.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="long_unseen/female_1_long_unseen/spsinger.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>Female 2</td>
+            <td>
+                <audio controls>
+                  <source src="long_unseen/female_2_long_unseen/ground_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="long_unseen/female_2_long_unseen/reference.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="long_unseen/female_2_long_unseen/spsinger.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>Male 0</td>
+            <td>
+                <audio controls>
+                  <source src="long_unseen/male_0_long_unseen/ground_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="long_unseen/male_0_long_unseen/reference.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="long_seen/male_0_long_unseen/spsinger.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>Male 1</td>
+            <td>
+                <audio controls>
+                  <source src="long_unseen/male_1_long_unseen/ground_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="long_unseen/male_1_long_unseen/reference.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="long_unseen/male_1_long_unseen/spsinger.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>Male 2</td>
+            <td>
+                <audio controls>
+                  <source src="long_unseen/male_2_long_unseen/ground_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="long_unseen/male_2_long_unseen/reference.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="long_unseen/male_2_long_unseen/spsinger.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+        </tr>
+    </tbody>
+</table>
