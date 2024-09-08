@@ -8,7 +8,7 @@ To overcome the challenge of requiring long audio prompts during inference, we i
 Our experiments show that SPSinger achieves high-quality singing voice synthesis that preserves the identity of the target singer, even when using only short reference audio inputs in zero-shot scenarios.
 </div>
 
-<br/ >
+<p></p>
 <div style="text-align: center;">
     <img src="SPSinger_overall.png" width="1000px">
     <figcaption>Fig.1 Overall Architecture of SPSinger.</figcaption>
