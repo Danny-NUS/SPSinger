@@ -29,7 +29,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
             <td><center>SPSinger</center></td>
         </tr>
         <tr>
-            <td>Female Singer 0</td>
+            <td>Female 0</td>
             <td>
                 <audio controls>
                   <source src="short_seen/female_0_short_seen/ground_truth.wav" type="audio/mpeg">
@@ -50,7 +50,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
             </td>
         </tr>
         <tr>
-            <td>Female Singer 1</td>
+            <td>Female 1</td>
             <td>
                 <audio controls>
                   <source src="short_seen/female_1_short_seen/ground_truth.wav" type="audio/mpeg">
@@ -71,7 +71,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
             </td>
         </tr>
         <tr>
-            <td>Female Singer 2</td>
+            <td>Female 2</td>
             <td>
                 <audio controls>
                   <source src="short_seen/female_2_short_seen/ground_truth.wav" type="audio/mpeg">
