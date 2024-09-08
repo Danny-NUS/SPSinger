@@ -1,4 +1,3 @@
-# SPSinger: Multi-Singer Singing Voice Synthesis with Short Reference Prompt
 ## Abstract of the paper
 
 <div style="text-align: justify">
@@ -14,7 +13,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
     <figcaption>Fig.1 Overall Architecture of SPSinger.</figcaption>
 </div>
 
-## Synthesis Results
+## Synthesis Results on Seen Singers
 <br>
 <table>
     <thead>
@@ -30,97 +29,127 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
             <td><center>SPSinger</center></td>
         </tr>
         <tr>
-            <td>Scooping</td>
+            <td>Female Singer 0</td>
             <td>
                 <audio controls>
-                  <source src="2002000053_7_scooping.wav" type="audio/mpeg">
+                  <source src="short_seen/female_0_short_seen/groud_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_seen/female_0_short_seen/reference.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                 </audio>
             </td>
             <td>
                 <audio controls>
-                  <source src="2001000020_11_scooping.wav" type="audio/mpeg">
-                  Your browser does not support the audio tag.
-                </audio>
-            </td>
-            <td>
-                <center>
-                    <span style="text-decoration: underline; font-weight: bold; color: red;">具(ju)</span> 象(xiang)
-                </center>
-                <audio controls>
-                  <source src="2031001168_ju_scooping.wav" type="audio/mpeg">
-                  Your browser does not support the audio tag.
-                </audio>
-            </td>
-        </tr>
-        <tr>
-            <td>Bend</td>
-            <td>
-                <audio controls>
-                  <source src="2002000066_0_bend.wav" type="audio/mpeg">
-                  Your browser does not support the audio tag.
-                </audio>
-            </td>
-            <td>
-                <audio controls>
-                  <source src="2002000066_11_bend.wav" type="audio/mpeg">
-                  Your browser does not support the audio tag.
-                </audio>
-            </td>
-            <td>
-                <center>
-                    没(mei) 限(xian) <span style="text-decoration: underline; font-weight: bold; color: red;">期(qi)</span>
-                </center>
-                <audio controls>
-                  <source src="2042001596_qi_bend.wav" type="audio/mpeg">
+                  <source src="short_seen/female_0_short_seen/spsinger.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                 </audio>
             </td>
         </tr>
         <tr>
-            <td>Drop</td>
+            <td>Female Singer 1</td>
             <td>
                 <audio controls>
-                  <source src="2002000071_3_drop.wav" type="audio/mpeg">
+                  <source src="short_seen/female_1_short_seen/groud_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_seen/female_1_short_seen/reference.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                 </audio>
             </td>
             <td>
                 <audio controls>
-                  <source src="2007000218_6_drop.wav" type="audio/mpeg">
-                  Your browser does not support the audio tag.
-                </audio>
-            </td>
-            <td>
-                <center>
-                    再(zai) <span style="text-decoration: underline; font-weight: bold; color: red;">给(gei)</span> 我(wo) 两(liang) 分(fen) 钟(zhong)
-                </center>
-                <audio controls>
-                  <source src="2067002490_gei_drop.wav" type="audio/mpeg">
+                  <source src="short_seen/female_1_short_seen/spsinger.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                 </audio>
             </td>
         </tr>
         <tr>
-            <td>Melisma</td>
+            <td>Female Singer 2</td>
             <td>
                 <audio controls>
-                  <source src="2057002127_3_melisma.wav" type="audio/mpeg">
+                  <source src="short_seen/female_2_short_seen/groud_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_seen/female_2_short_seen/reference.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                 </audio>
             </td>
             <td>
                 <audio controls>
-                  <source src="2010000384_4_melisma.wav" type="audio/mpeg">
+                  <source src="short_seen/female_2_short_seen/spsinger.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>Male Singer 0</td>
+            <td>
+                <audio controls>
+                  <source src="short_seen/male_0_short_seen/groud_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_seen/male_0_short_seen/reference.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                 </audio>
             </td>
             <td>
-                <center>
-                    <span style="text-decoration: underline; font-weight: bold; color: red;">双(shuang)</span> 眼(yan)
-                </center>
                 <audio controls>
-                  <source src="2017000662_shuang_melisma.wav" type="audio/mpeg">
+                  <source src="short_seen/male_0_short_seen/spsinger.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>Male Singer 1</td>
+            <td>
+                <audio controls>
+                  <source src="short_seen/male_1_short_seen/groud_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_seen/male_1_short_seen/reference.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_seen/male_1_short_seen/spsinger.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>Male Singer 2</td>
+            <td>
+                <audio controls>
+                  <source src="short_seen/male_2_short_seen/groud_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_seen/male_2_short_seen/reference.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_seen/male_2_short_seen/spsinger.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                 </audio>
             </td>
@@ -128,104 +157,138 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
     </tbody>
     <thead>
         <tr>
-            <th colspan="4">Singing Voice Samples of Timbre Singing Techniques</th>
+            <th colspan="4">Synthesis on Seen Singers with Long Music Scores</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>Vocal Fry</td>
+            <td><center>Singers</center></td>
+            <td><center>GT mel + Vocoder</center></td>
+            <td><center>Reference</center></td>
+            <td><center>SPSinger</center></td>
+        </tr>
+        <tr>
+            <td>Female Singer 0</td>
             <td>
                 <audio controls>
-                  <source src="2001000009_0_vf.wav" type="audio/mpeg">
+                  <source src="short_unseen/female_0_short_unseen/groud_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/female_0_short_unseen/reference.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                 </audio>
             </td>
             <td>
                 <audio controls>
-                  <source src="2004000113_2_vf.wav" type="audio/mpeg">
-                  Your browser does not support the audio tag.
-                </audio>
-            </td>
-            <td>
-                <center>
-                    <span style="text-decoration: underline; font-weight: bold; color: red;">我(wo)</span> 们(men) 都(dou) 需(xu) 要(yao) 勇(yong) 气(qi)
-                </center>
-                <audio controls>
-                  <source src="2028001094_wo_vf.wav" type="audio/mpeg">
+                  <source src="short_unseen/female_0_short_unseen/spsinger.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                 </audio>
             </td>
         </tr>
         <tr>
-            <td>Falsetto</td>
+            <td>Female Singer 1</td>
             <td>
                 <audio controls>
-                  <source src="2047001800_5_fal.wav" type="audio/mpeg">
+                  <source src="short_unseen/female_1_short_unseen/groud_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/female_1_short_unseen/reference.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                 </audio>
             </td>
             <td>
                 <audio controls>
-                  <source src="2047001802_6_fal.wav" type="audio/mpeg">
-                  Your browser does not support the audio tag.
-                </audio>
-            </td>
-            <td>
-                <center>
-                    没(mei) 
-                    <span style="text-decoration: underline; font-weight: bold; color: red;">有(wo) 你(you) 根(gen) 本(ben)</span> 不(bu) 想(xiang) 逃(tao)
-                </center>
-                <audio controls>
-                  <source src="falsetto_gt.wav" type="audio/mpeg">
+                  <source src="short_unseen/female_1_short_unseen/spsinger.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                 </audio>
             </td>
         </tr>
         <tr>
-            <td>Breathy</td>
+            <td>Female Singer 2</td>
             <td>
                 <audio controls>
-                  <source src="2050001901_5_breathy.wav" type="audio/mpeg">
+                  <source src="short_unseen/female_2_short_unseen/groud_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/female_2_short_unseen/reference.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                 </audio>
             </td>
             <td>
                 <audio controls>
-                  <source src="2053001995_0_breathy.wav" type="audio/mpeg">
-                  Your browser does not support the audio tag.
-                </audio>
-            </td>
-            <td>
-                <center>
-                    我(wo) 
-                    <span style="text-decoration: underline; font-weight: bold; color: red;">不(bu) 会(hui) 发(fa) 现(xian) 我(wo) 难(nan) 受(shou)</span>
-                </center>
-                <audio controls>
-                  <source src="2094003485_all_except_first_breathy.wav" type="audio/mpeg">
+                  <source src="short_unseen/female_2_short_unseen/spsinger.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                 </audio>
             </td>
         </tr>
         <tr>
-            <td>Belting</td>
+            <td>Male Singer 0</td>
             <td>
                 <audio controls>
-                  <source src="2054002011_3_belting.wav" type="audio/mpeg">
+                  <source src="short_unseen/male_0_short_unseen/groud_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/male_0_short_unseen/reference.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                 </audio>
             </td>
             <td>
                 <audio controls>
-                  <source src="2057002140_13_belting.wav" type="audio/mpeg">
+                  <source src="short_unseen/male_0_short_unseen/spsinger.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>Male Singer 1</td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/male_1_short_unseen/groud_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/male_1_short_unseen/reference.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                 </audio>
             </td>
             <td>
-                <center>
-                    <span style="text-decoration: underline; font-weight: bold; color: red;">一(yi) 辈(bei) 子(zi) 暖(nuan) 暖(nuan) 的(de) 好(hao)</span>
-                </center>
                 <audio controls>
-                  <source src="2093003482_all_belting.wav" type="audio/mpeg">
+                  <source src="short_unseen/male_1_short_unseen/spsinger.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>Male Singer 2</td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/male_2_short_unseen/groud_truth.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                  </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/male_2_short_unseen/reference.wav" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="short_unseen/male_2_short_unseen/spsinger.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                 </audio>
             </td>
