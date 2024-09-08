@@ -29,10 +29,10 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
             <td><center>SPSinger</center></td>
         </tr>
         <tr>
-            <td>Female Singer 0</td>
+            <td style="width: 200px;">Female Singer 0</td>
             <td>
                 <audio controls>
-                  <source src="short_seen/female_0_short_seen/groud_truth.wav" type="audio/mpeg">
+                  <source src="short_seen/female_0_short_seen/ground_truth.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                   </audio>
             </td>
@@ -53,7 +53,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
             <td>Female Singer 1</td>
             <td>
                 <audio controls>
-                  <source src="short_seen/female_1_short_seen/groud_truth.wav" type="audio/mpeg">
+                  <source src="short_seen/female_1_short_seen/ground_truth.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                   </audio>
             </td>
@@ -74,7 +74,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
             <td>Female Singer 2</td>
             <td>
                 <audio controls>
-                  <source src="short_seen/female_2_short_seen/groud_truth.wav" type="audio/mpeg">
+                  <source src="short_seen/female_2_short_seen/ground_truth.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                   </audio>
             </td>
@@ -95,7 +95,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
             <td>Male Singer 0</td>
             <td>
                 <audio controls>
-                  <source src="short_seen/male_0_short_seen/groud_truth.wav" type="audio/mpeg">
+                  <source src="short_seen/male_0_short_seen/ground_truth.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                   </audio>
             </td>
@@ -116,7 +116,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
             <td>Male Singer 1</td>
             <td>
                 <audio controls>
-                  <source src="short_seen/male_1_short_seen/groud_truth.wav" type="audio/mpeg">
+                  <source src="short_seen/male_1_short_seen/ground_truth.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                   </audio>
             </td>
@@ -137,7 +137,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
             <td>Male Singer 2</td>
             <td>
                 <audio controls>
-                  <source src="short_seen/male_2_short_seen/groud_truth.wav" type="audio/mpeg">
+                  <source src="short_seen/male_2_short_seen/ground_truth.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                   </audio>
             </td>
@@ -171,7 +171,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
             <td>Female Singer 0</td>
             <td>
                 <audio controls>
-                  <source src="long_seen/female_0_long_seen/groud_truth.wav" type="audio/mpeg">
+                  <source src="long_seen/female_0_long_seen/ground_truth.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                   </audio>
             </td>
@@ -192,7 +192,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
             <td>Female Singer 1</td>
             <td>
                 <audio controls>
-                  <source src="long_seen/female_1_long_seen/groud_truth.wav" type="audio/mpeg">
+                  <source src="long_seen/female_1_long_seen/ground_truth.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                   </audio>
             </td>
@@ -213,7 +213,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
             <td>Female Singer 2</td>
             <td>
                 <audio controls>
-                  <source src="long_seen/female_2_long_seen/groud_truth.wav" type="audio/mpeg">
+                  <source src="long_seen/female_2_long_seen/ground_truth.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                   </audio>
             </td>
@@ -234,7 +234,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
             <td>Male Singer 0</td>
             <td>
                 <audio controls>
-                  <source src="long_seen/male_0_long_seen/groud_truth.wav" type="audio/mpeg">
+                  <source src="long_seen/male_0_long_seen/ground_truth.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                   </audio>
             </td>
@@ -255,7 +255,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
             <td>Male Singer 1</td>
             <td>
                 <audio controls>
-                  <source src="long_seen/male_1_long_seen/groud_truth.wav" type="audio/mpeg">
+                  <source src="long_seen/male_1_long_seen/ground_truth.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                   </audio>
             </td>
@@ -276,7 +276,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
             <td>Male Singer 2</td>
             <td>
                 <audio controls>
-                  <source src="long_seen/male_2_long_seen/groud_truth.wav" type="audio/mpeg">
+                  <source src="long_seen/male_2_long_seen/ground_truth.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                   </audio>
             </td>
