@@ -8,23 +8,10 @@ To overcome the challenge of requiring long audio prompts during inference, we i
 Our experiments show that SPSinger achieves high-quality singing voice synthesis that preserves the identity of the target singer, even when using only short reference audio inputs in zero-shot scenarios.
 </div>
 
-### Overall Architecture
 
 <div style="text-align: center;">
-    <img src="overall-1.png" width="1000px">
-</div>
-
-<div style="text-align: justify">
-    SinTechSVS consists of three key components: singing technique annotator (STA), singing voice synthesizer conditioned on singing techniques (SVS), and singing technique recommender (STR). The 'OR' symbol in this figure means that the input of SVS is either by a user-input singing technique sequence or the predicted singing technique sequence from the singing technique recommender. 
-</div>
-
-<br>
-<div style="text-align: center;">
-    <img src="tr_inf.png" width="1000px">
-</div>
-
-<div style="text-align: justify">
-    The training process of SinTechSVS consists of three steps, with each step laying the foundation for the next. Modules depicted with full shadows remain unfixed during the training step, while those with half shadows are first fixed and then unfixed during training. (Top-left): Training of STA; (Bottom-left): Training of STA; (Bottom-right): Inference of SinTechSVS.
+    <img src="SPSinger_overall.png" width="1000px">
+    <figcaption>Overall Architecture of SPSinger. $\mathbf{e}_m$, $\mathbf{e}_g$, and $\mathbf{e}_l$ correspondingly represent the music score hidden sequence, global feature hidden sequence, and local feature hidden sequence. $\hat{\mathbf{e}_l}$ represents the predicted local feature hidden. Concatenation and repeating operations are denoted by \textcircled{\tiny{C}} and \textcircled{\tiny{R}}, respectively. In this diagram, training is indicated by dashed lines, pitch shift is only performed during inference.</figcaption>
 </div>
 
 ## Singing Technique Annotations
