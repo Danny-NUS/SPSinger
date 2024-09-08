@@ -23,13 +23,13 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
     </thead>
     <tbody>
         <tr>
-            <td><center>Singers</center></td>
-            <td><center>GT mel + Vocoder</center></td>
-            <td><center>Reference</center></td>
-            <td><center>SPSinger</center></td>
+            <td style="width: 300px;"><center>Singers</center></td>
+            <td style="width: 300px;"><center>GT mel + Vocoder</center></td>
+            <td style="width: 300px;"><center>Reference</center></td>
+            <td style="width: 300px;"><center>SPSinger</center></td>
         </tr>
         <tr>
-            <td style="width: 300px;">Female Singer 0</td>
+            <td>Female Singer 0</td>
             <td>
                 <audio controls>
                   <source src="short_seen/female_0_short_seen/ground_truth.wav" type="audio/mpeg">
