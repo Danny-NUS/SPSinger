@@ -1,4 +1,5 @@
-## SPSinger: Multi-Singer Singing Voice Synthesis with Short Reference Prompt
+# SinTechSVS: A Singing Technique Controllable Singing Voice Synthesis System
+## Abstract of the paper
 
 <div style="text-align: justify">
 Current singing voice synthesis systems often struggle in multi-singer scenarios due to limited training data that only includes a few singers. Existing zero-shot multi-singer singing voice synthesis systems are criticized for their reliance on global timbre embeddings from single reference audio, which fail to capture sufficient timbre details. This paper introduces SPSinger, a multi-singer singing voice synthesizer that generates singer-specific voices from brief reference audio (around \textit{5 seconds}) without prior training on the singer's voice. 
