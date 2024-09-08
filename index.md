@@ -15,7 +15,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
 
 ## Synthesis Results on Seen Singers
 <br>
-<table>
+<table style="width: 100%;">
     <thead>
         <tr>
             <th colspan="4">Synthesis on Seen Singers with Short Music Scores</th>
