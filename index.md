@@ -23,7 +23,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
     </thead>
     <tbody>
        <tr>
-            <td><center>Singers</center></td>
+            <td><center>Singer Identity</center></td>
             <td><center>GT mel + Vocoder</center></td>
             <td><center>Reference</center></td>
             <td><center>SPSinger</center></td>
