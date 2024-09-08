@@ -8,29 +8,26 @@ To overcome the challenge of requiring long audio prompts during inference, we i
 Our experiments show that SPSinger achieves high-quality singing voice synthesis that preserves the identity of the target singer, even when using only short reference audio inputs in zero-shot scenarios.
 </div>
 
-
+<br/ >
 <div style="text-align: center;">
     <img src="SPSinger_overall.png" width="1000px">
     <figcaption>Fig.1 Overall Architecture of SPSinger.</figcaption>
 </div>
 
 ## Synthesis Results
-<div style="text-align: justify">
-    In this section, we provide samples of singing techniques that we annotated on opencpop dataset. In sentence-level samples, bolded words are sung in the specific technique.
-</div>
 <br>
 <table>
     <thead>
         <tr>
-            <th colspan="4">Singing Voice Samples of Pitch Singing Techniques</th>
+            <th colspan="4">Synthesis on Seen Singers with Short Music Scores</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td><center>Pitch Singing Techniques</center></td>
-            <td><center>Word-level Sample 1</center></td>
-            <td><center>Word-level Sample 2</center></td>
-            <td><center>Sentence-level Sample</center></td>
+            <td><center>Singers</center></td>
+            <td><center>GT mel + Vocoder</center></td>
+            <td><center>Reference</center></td>
+            <td><center>SPSinger</center></td>
         </tr>
         <tr>
             <td>Scooping</td>
