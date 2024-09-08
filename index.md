@@ -1,4 +1,4 @@
-# 
+# SPSinger: Multi-Singer Singing Voice Synthesis with Short Reference Prompt
 ## Abstract of the paper
 
 <div style="text-align: justify">
