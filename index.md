@@ -528,7 +528,7 @@ Our experiments show that SPSinger achieves high-quality singing voice synthesis
             </td>
             <td>
                 <audio controls>
-                  <source src="long_seen/male_0_long_unseen/spsinger.wav" type="audio/mpeg">
+                  <source src="long_unseen/male_0_long_unseen/spsinger.wav" type="audio/mpeg">
                   Your browser does not support the audio tag.
                 </audio>
             </td>
